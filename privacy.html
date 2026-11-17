@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — Mail Platform Backup</title>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p>Last updated: 17 November 2026</p>
+
+  <p>Mail Platform Backup is a private tool used by its operator
+     to back up and recover the operator's own Mail Platform installation.</p>
+
+  <h2>Google Drive access</h2>
+  <p>The tool uses rclone and Google OAuth authorization to access the
+     operator's Google Drive. Drive permissions may allow access beyond
+     the backup folder. The configured backup job uses that access to
+     upload, list, verify, retrieve, and manage recovery archives.</p>
+
+  <h2>Data stored</h2>
+  <p>Recovery archives include application source, configuration,
+     credentials, and database records, which may contain email addresses,
+     campaign content, and sending and feedback history.
+     Archives are encrypted locally through rclone crypt before upload
+     and decrypted locally when retrieved.</p>
+
+  <h2>Use and sharing</h2>
+  <p>Google user data is used only for backup and recovery operations.
+     It is not sold, used for advertising, or used to train AI models.
+     Google Drive stores the encrypted archives under its own terms.</p>
+
+  <h2>Access and deletion</h2>
+  <p>The operator can revoke the tool's access through their Google
+     Account's third-party connections settings. Revoking access does not
+     delete existing archives; the operator can delete those separately.
+     Archives remain until removed by the operator or configured
+     retention rules.</p>
+
+  <h2>Contact</h2>
+  <p>For questions about this tool, contact its operator using the
+     support email displayed on the Google OAuth consent screen.</p>
+
+  <p><a href="index.html">Return to home</a></p>
+</body>
+</html>
